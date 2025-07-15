@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+.main{
+    position: relative;
+}  
+.navbar{
+  
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 400px;
+  color: white;
+}
+.logo {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .btn{
+    background-color: rgba(255, 0, 0, 0.829);
+    color: white;
+    border-radius: 10px;
+  }
+  .nav-links li:hover {
+    background: #ff4c3b;
+  }
+  
+  
+  .dropdown-content,
+  .dropdown-blog {
+    display: none;
+    position: absolute;
+    background: #fff;
+    min-width: 150px;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .dropdown-content a,
+  .dropdown-blog a {
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover,
+  .dropdown-blog a:hover {
+    background: #f1f1f1;
+  }
+  
+  
+  .nav-links li:hover .dropdown-content,
+  .nav-links li:hover .dropdown-blog {
+    display: block;
+  }
+  
+  
+  .nav-links li a i {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-links li {
+      width: 100%;
+    }
+  
+    .nav-links li a {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .dropdown-content,
+    .dropdown-blog {
+      position: static;
+      box-shadow: none;
+    }
+  }
+  .breadcrump{
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    background: #fff;
+    overflow: hidden;
+  }
+.about-heading{
+    text-align:center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.bread-shapes span {
+    position: absolute;
+}
+
+.b-shape-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.b-shape-2 {
+    top: 50px;
+    left: 50px;
+}
+
+.b-shape-3 {
+    bottom: 50px;
+    left: 30px;
+}
+.b-shape-4 {
+    position: sticky;
+    right: 0;     
+    width: 150px; 
+    z-index: -4;  
+    bottom: 250px;
+}
+
+header.main {
+    width: 100%;
+    height: 400px; 
+    background: url('https://tse4.mm.bing.net/th/id/OIP.fGeWWMmlh__WsOZsmrDQ_gHaEK?pid=Api&P=0&h=180') no-repeat center/cover;
+    position: relative;   
+}
+.home-main{
+    background: url();
+
+}
+
+  
+  
